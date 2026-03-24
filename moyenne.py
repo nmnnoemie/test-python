@@ -1,0 +1,6 @@
+note1 =float(input("Entrer votre première note:"))
+coeff1=float(input("entrer votre coefficient:"))
+note2=float(input("Entrer votre deuxième note:"))
+coeff2=float(input("entrer votre coefficient:"))
+moyenne=(note1*coeff1+note2*coeff2)/(coeff1+coeff2)
+print("votre moyenne est de :",moyenne)

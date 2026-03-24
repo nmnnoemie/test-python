@@ -1,0 +1,4 @@
+longueur = float (input("Entrer la longueur :"))
+largeur = float (input ("Entrer la largeur :"))
+aire = longueur*largeur
+print ("L'aire du rectangle est:", aire )
