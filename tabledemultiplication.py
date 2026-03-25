@@ -4,4 +4,4 @@ if n>0:
 else:
     print(f"Démarrage de{n} a 10:")
 for i in range (0,11):
-    print (n*i)
+    print(n,"x",i,"=",n*i)
