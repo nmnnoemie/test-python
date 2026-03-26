@@ -1,6 +1,5 @@
-l=str(input("Entrer un mot:"))
-nba=str("nombre de a")
-if nba>0:
-    print("nombre de a =",nba)
-else:
-    print("nombre ")
+mot=input("Entrer un mot:")
+a=0
+for i in mot:
+    print("il y a :",a+1)
+
