@@ -1,5 +1,9 @@
 mot=input("Entrer un mot:")
-a=0
-for i in mot:
-    print("il y a :",a+1)
+finda=mot.find("a")
+counta=mot.count("a")
+if mot.__contains__("a"):
+    print("le mot contient",counta,"a")
+else:
+    print("pas de a")
+
 

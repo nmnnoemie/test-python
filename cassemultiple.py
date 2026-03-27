@@ -1,0 +1,8 @@
+mot=str(input("Entrer un mot:"))
+mm=mot.upper()
+print(mm)
+mn=mot.lower()
+print(mn)
+mtc=mot.title()
+print(mtc)
+print(len(mot))
